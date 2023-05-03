@@ -44,7 +44,7 @@ const globPromise = promisify(glob);
 
 
 client.on(`ready`, () => {
-  client.guilds.cache.get(`1087411867770699897`).commands.set(arrayOfSlashCommands)//for single guild but for all use client.application.commands.set(arrayOfSlashCommands)
+  client.guilds.cache.get(`761666588486271027`).commands.set(arrayOfSlashCommands)//for single guild but for all use client.application.commands.set(arrayOfSlashCommands)
 })
 
 const { DisTube } = require("distube")
